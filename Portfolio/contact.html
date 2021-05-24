@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width", initial-scale="1.0">
+	<title>CONTACT</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+	<section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="images/logo.png" width="100px"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="details.html">DETAILS</a></li>
+					<li><a href="blog.html">BLOG</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+
+		<h1>Contact Me</h1>
+		
+	</section>
+
+	<!--contact me-->
+
+	<section class="location">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14126.582757256883!2d85.30935287909541!3d27.728223824530453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb191ed757779f%3A0xa3fb7fed922d73e8!2sSamakhusi%2C%20Kathmandu%2044600!5e0!3m2!1sen!2snp!4v1621844414928!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+	</section>
+
+	<section class="contact-me">
+		<div class="row">
+			<div class="contact-col">
+				<div>
+					<i class="fa fa-home"></i>
+					<span>
+						<h5>Srijana Tole, Tokha</h5>
+						<p>-Samakhusi, Kathmandu, Nepal</p>
+					</span>
+				</div>
+				<div>
+					<i class="fa fa-phone"></i>
+					<span>
+						<h5>+977-9824127525</h5>
+						<p>-Monday to Friday, 10AM to 5PM</p>
+					</span>
+				</div>
+				<div>
+					<i class="fa fa-envelope-o"></i>
+					<span>
+						<h5>utsavshrestha102@gmail.com</h5>
+						<p>-Email for the query.</p>
+					</span>
+				</div>
+			</div>
+<div class="contact-col">
+	<form action="" method="post">
+		<input type="text" name="name" placeholder="Enter your name" required>
+		<input type="email" name="email" placeholder="Enter Email Address" required>
+		<input type="text" name="subject" placeholder="Enter your Subject" required>
+		<textarea rows="8" name="message" placeholder="MESSAGE" required></textarea>
+		<button type="submit" class="hero-btn red-btn">SEND MESSAGE</button>
+	</form>
+</div>
+		
+		</div>
+
+	</section>
+
+	
+	<!--Footer-->
+	<section class="footer">
+		<h4>About Me</h4>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br>incididunt ut labore et dolore magna aliqua.</p>
+		<div class="icons">
+			<i class="fa fa-facebook"></i>
+			<i class="fa fa-twitter"></i>
+			<i class="fa fa-instagram"></i>
+			<i class="fa fa-linkedin"></i>
+		</div>
+		<p>Made with <i class="fa fa-heart-o"></i> by @UTSAV SHRESTHA.</p>
+	</section>
+
+
+	<!--Javascript to toggle menu-->
+	<script type="text/javascript">
+
+		var navLinks = document.getElementById('navLinks');
+
+		function showMenu() {
+			navLinks.style.right = "0";
+		}
+
+		function hideMenu(){
+			navLinks.style.right = "-200px";
+		}
+		
+	</script>
+
+</body>
+</html>
